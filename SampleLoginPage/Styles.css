@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    color: black;
+}
+.outerContainer{
+ width: 100vw;   
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+background: radial-gradient(rgb(213, 208, 208), rgb(165, 239, 177));
+}
+.innerContainer{
+    width: 30vw;
+    height: 48vh;
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    transform: translateY(-20%);
+    border-radius: 10px;
+    background : linear-gradient(to top left, rgb(224, 224, 172), rgb(210, 176, 176))
+}
+input{
+    height: 40px;
+   margin: 0 60px 0 50px;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  padding-left: 15px;
+}
+label{
+    margin: 0 60px 0 50px;
+}
+.innerContainer h1{
+   padding: 0 0 0 50px;
+ margin-top: 20px;
+}
+#submitButton{
+background-color: rgb(9, 9, 9);
+color: white;
+font-weight: bold;
+}
+#submitButton:hover{
+    background-color: blue;
+    color: White;
+}
+.resetButtons{
+    padding: 0 0 0 50px;
+}
+.resetButtons a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+.resetButtons a:hover{
+    color: blue;;
+}
