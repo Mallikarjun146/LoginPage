@@ -193,6 +193,7 @@ height: 46px;
     min-height: 300px;
     background-color: black;
     background-image: url(./LION.jpg);
+    background-size: cover;
 }
 .example-card-text{
  position: absolute;
